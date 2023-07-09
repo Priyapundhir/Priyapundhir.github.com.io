@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do-while</title>
+</head>
+<body>
+    
+    <script>
+
+        let api = 0;
+
+        let cars= ["bolero","swift","creta","thar","fortuner"];
+
+        let image=[ `<img src="https://tse4.mm.bing.net/th?id=OIP.uX22wP-iNBAOWU-kLaaMugAAAA&pid=Api&P=0&h=180" alt="bolero">`, `<img src="https://tse4.mm.bing.net/th?id=OIP.DXtqdqri6TMaZZEODBsY_gAAAA&pid=Api&P=0&h=180" alt="thar">`, `<img src="https://tse4.mm.bing.net/th?id=OIP.DXtqdqri6TMaZZEODBsY_gAAAA&pid=Api&P=0&h=180" alt="swift">`, `<img src="https://tse4.mm.bing.net/th?id=OIP.DXtqdqri6TMaZZEODBsY_gAAAA&pid=Api&P=0&h=180" alt="fortuner"`,`<img src="https://tse4.mm.bing.net/th?id=OIP.uX22wP-iNBAOWU-kLaaMugAAAA&pid=Api&P=0&h=180" alt="bolero">`,`<img src="https://tse4.mm.bing.net/th?id=OIP.uX22wP-iNBAOWU-kLaaMugAAAA&pid=Api&P=0&h=180" alt="bolero">`]
+
+        do{  
+            document.write(`<h1> ${cars[api]}</h1>`);
+            document.write(`<h1> ${image[api]}</h1>`);
+
+            api++;
+        }
+        while(api<cars.length);
+
+        
+
+
+    </script>
+</body>
+</html>
