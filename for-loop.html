@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for loops js</title>
+    
+</head>
+<body>
+    <script>
+        document.write(`<table border="1" cellpadding="15px" bgcolor="pink">`);
+        for (a = 2; a <= 10; a++) {
+            document.write(`<tr>`); // Start a new row for each table
+            for (c = 1; c <= 10; c++) {
+                document.write(`<td>${c * a}</td>`);
+            }
+            document.write(`</tr>`); // Close the row after the inner loop
+        }
+        document.write(`</table>`);
+               
+    </script>
+    
+</body>
+</html>
